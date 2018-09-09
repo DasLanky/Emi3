@@ -175,9 +175,9 @@ bindsym Mod1+r mode "resize"
 bar {
         status_command i3blocks
         colors {
-                background #000000
+                background #562500
                 statusline #ffffff
-                separator #666666
+                separator #ffffff
 
                 focused_workspace  #4c7899 #285577 #ffffff
                 active_workspace   #333333 #5f676a #ffffff
@@ -190,7 +190,7 @@ bar {
 # Mod+shift+x to lock the screen
 bindsym $mod+shift+x exec i3lock
 
-gaps inner 30
+gaps inner 15
 
 exec_always feh --bg-scale /home/lanky/Pictures/wallpaper.png
 exec_always compton -f --config ~/.config/compton.conf
@@ -201,7 +201,7 @@ exec terminator -e htop
 exec code
 
 
-# exec firefox
-# exec firefox
-# exec firefox
+exec i3-msg "workspace Web; append_layout /home/lanky/.i3/workspace2.json"
+exec firefox
+exec firefox
 
