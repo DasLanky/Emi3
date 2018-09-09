@@ -204,4 +204,3 @@ exec code
 exec i3-msg "workspace Web; append_layout /home/lanky/.i3/workspace2.json"
 exec firefox
 exec firefox
-
