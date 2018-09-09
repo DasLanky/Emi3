@@ -11,3 +11,8 @@
 - Background opacity 70%
 - Color / Color Scheme: Gruvbox Light
 - Cursor: I-Beam blink
+- Show scrollbar OFF
+- Show titlebar OFF
+
+### Theme dependencies
+- htop
