@@ -16,3 +16,4 @@
 
 ### Theme dependencies
 - htop
+- light (for brightness management on laptops and tablets)

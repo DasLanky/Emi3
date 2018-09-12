@@ -21,8 +21,8 @@
             "percent": 0.7,
             "swallows": [
                {
-               "class": "^Terminator$"
-               }
+                    "class": "^Terminator$"
+                }
             ],
             "type": "con"
         },
@@ -40,8 +40,8 @@
             "percent": 0.3,
             "swallows": [
                {
-               "class": "^Terminator$"
-               }
+                   "class": "^Terminator$"
+                }
             ],
             "type": "con"
         }
@@ -62,8 +62,8 @@
     "percent": 0.5,
     "swallows": [
        {
-        "class": "^Code$"
-       }
+            "class": "^Code$"
+        }
     ],
     "type": "con"
 }

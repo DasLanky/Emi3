@@ -10,7 +10,7 @@
        "y": 0
     },
     "name": "Firefox 1",
-    "percent": 0.333333333333333,
+    "percent": 0.5,
     "swallows": [
        {
        "class": "^Firefox$"
@@ -34,36 +34,12 @@
        "y": 10
     },
     "name": "Firefox 2",
-    "percent": 0.333333333333333,
+    "percent": 0.5,
     "swallows": [
        {
        "class": "^Firefox$"
        // "instance": "^Navigator$",
        // "title": "^Account\\ overview\\ \\-\\ Spotify\\ \\-\\ Mozilla\\ Firefox$",
-       // "transient_for": "^$",
-       // "window_role": "^browser$"
-       }
-    ],
-    "type": "con"
-}
-
-{
-    "border": "pixel",
-    "current_border_width": 0,
-    "floating": "auto_off",
-    "geometry": {
-       "height": 1292,
-       "width": 1132,
-       "x": 2298,
-       "y": 10
-    },
-    "name": "Firefox 3",
-    "percent": 0.333333333333333,
-    "swallows": [
-       {
-       "class": "^Firefox$"
-       // "instance": "^Navigator$",
-       // "title": "^Google\\ \\-\\ Mozilla\\ Firefox$",
        // "transient_for": "^$",
        // "window_role": "^browser$"
        }
