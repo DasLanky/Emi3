@@ -13,7 +13,7 @@
     "percent": 1,
     "swallows": [
        {
-       "class": "^Spotify$"
+       "class": "^spotify$"
        // "instance": "^spotify$",
        // "title": "^Spotify$",
        // "transient_for": "^$"

@@ -176,14 +176,15 @@ bindsym Mod1+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3blocks
+        position top
         colors {
-                background #562500
+                background #111111
                 statusline #ffffff
                 separator #ffffff
 
-                focused_workspace  #4c7899 #285577 #ffffff
-                active_workspace   #333333 #5f676a #ffffff
-                inactive_workspace #333333 #222222 #888888
+                focused_workspace  #000000 #702020 #ffffff
+                active_workspace   #000000 #5f676a #ffffff
+                inactive_workspace #000000 #050505 #888888
                 urgent_workspace   #2f343a #900000 #ffffff
                 binding_mode       #2f343a #900000 #ffffff
         }
@@ -204,7 +205,7 @@ bindsym $mod+shift+x exec i3lock
 gaps inner 15
 
 exec_always feh --bg-scale /home/lanky/Pictures/wallpaper.png
-exec_always compton -f --config ~/.config/compton.conf
+exec_always compton -c -f --config ~/.config/compton.conf
 
 exec i3-msg "workspace Work; append_layout /home/lanky/.i3/workspace.json"
 #assign [class="^Terminator$" instance="^main$"] Work
