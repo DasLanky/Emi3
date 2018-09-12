@@ -203,10 +203,10 @@ bindsym Mod1+Shift+o exec "light -U 5; notify-send 'brightness down'"
 # Mod+shift+x to lock the screen
 bindsym $mod+shift+x exec i3lock
 
-gaps inner 15
+gaps inner 0
 
 exec_always feh --bg-scale /home/lanky/Pictures/wallpaper.png
-exec_always compton -c -f --config ~/.config/compton.conf
+exec_always compton -f --config ~/.config/compton.conf
 
 exec i3-msg "workspace Work; append_layout /home/lanky/.i3/workspace.json"
 #assign [class="^Terminator$" instance="^main$"] Work
