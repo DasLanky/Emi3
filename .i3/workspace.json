@@ -58,11 +58,11 @@
        "x": 10,
        "y": 10
     },
-    "name": "workspace.json - lanky - Visual Studio Code",
+    "name": "Terminator3",
     "percent": 0.5,
     "swallows": [
        {
-            "class": "^Code$"
+            "class": "^Terminator$"
         }
     ],
     "type": "con"

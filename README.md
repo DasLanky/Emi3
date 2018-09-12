@@ -14,8 +14,13 @@
 - Show scrollbar OFF
 - Show titlebar OFF
 
+### Vim settings
+- Colorscheme: Molokai
+- syntax enable
+- tabstop 4, softtabstop 4, expandtab
+- various nonsense
+
 ### Theme dependencies
-- VS Code (work workspace)
 - screenfetch, zsh, htop (work workspace)
 - light (for brightness management on laptops and tablets)
 - spotify (music workspace)
